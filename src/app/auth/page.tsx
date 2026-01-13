@@ -73,12 +73,6 @@ export default function AuthPage() {
           </div>
         </Card>
 
-        <Card>
-          <h2 className="text-lg font-semibold">Tip</h2>
-          <p className="mt-2 text-sm text-gray-300">
-            Si te estorba la confirmación por correo para pruebas, desactívala en Supabase Auth Settings.
-          </p>
-        </Card>
       </div>
     </Page>
   );
