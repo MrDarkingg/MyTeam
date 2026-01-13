@@ -47,7 +47,7 @@ export default function AuthPage() {
         <Link href="/"><Button>Inicio</Button></Link>
       </div>
 
-      <div className="mt-5 grid gap-4 md:grid-cols-2">
+      <div className="mt-5 grid gap-4 ">
         <Card>
           <div className="text-sm text-gray-300">Sesión: {userEmail ?? "—"}</div>
 
